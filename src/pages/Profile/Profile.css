@@ -16,6 +16,9 @@
 .personalprofile-img{
     height: 100%;
     width: 40%;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .personalprofile-img img{
@@ -60,6 +63,8 @@
     .personalprofile-img{
         height: 50%;
         width: 100%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
     }
     .personalprofile-img img{
         height: 100%;
