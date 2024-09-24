@@ -11,7 +11,8 @@ const Profile = () => {
   console.log(singleUser)
   const { name, profession, description, background, profileImage } = singleUser;
   return (
-    <div className='profile-page' style={{backgroundImage: `url(${background})`}}>
+    <div className='profile-page' style={{
+      backgroundImage: `url(${background})`}}>
       <div className='userdata-wrapper'>
         <div className="personalprofile-img">
           <img src={profileImage == null ? "https://cdn-icons-png.flaticon.com/512/149/149071.png" : profileImage} alt="profile-img" />
