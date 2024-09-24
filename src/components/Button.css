@@ -1,0 +1,9 @@
+.view-button{
+    padding: 5px 25px;
+    /* margin-bottom: 10px; */
+    font-size: 1rem;
+    border: 2px solid #3D7793;
+    background-color: #3D7793;
+    color: #fff;
+    cursor: pointer;
+}

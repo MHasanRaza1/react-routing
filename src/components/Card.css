@@ -1,0 +1,40 @@
+.card-wrapper{
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    height: 390px;
+    margin-bottom: 10px;
+}
+
+.cover-picture img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.profile-picture{
+    text-align: center;
+    margin: auto;
+    margin-top: -70px;
+}
+
+.profile-picture img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+.cardtext-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardtext-wrapper p{
+    text-align: center;
+    padding: 0px 10px;
+}
